@@ -18,11 +18,8 @@ public class RectangleComputation {
 		perimeter = length * 2.0 + width * 2.0;
 		area = width * length;
 		
-		System.out.print("The area of rectangle is ");
-		System.out.println(area);
-		System.out.print("The perimeter of rectangle is ");
-		System.out.println(perimeter);
-
+		System.out.printf("The area of rectangle is %d",area);
+		System.out.print("The perimeter of rectangle is %d", perimeter);
 	}
 
 }
